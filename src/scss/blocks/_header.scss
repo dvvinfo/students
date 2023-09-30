@@ -1,0 +1,28 @@
+.header {
+  padding: 24px 0;
+  background-color: var(--page-bg);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  .logo__img {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: var(--block-bg-green);
+    color: var(--text-white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .logo__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--text-color);
+  }
+}
