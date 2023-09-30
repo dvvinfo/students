@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Shield">
+<path id="Box" fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 14.8954 8.89666 14.006 9.99852 13.9286C19.1118 13.2889 27.838 8.52263 30.8723 6.70309C31.5647 6.28785 32.4353 6.28785 33.1277 6.70309C36.162 8.52263 44.8882 13.2889 54.0015 13.9286C55.1033 14.006 56 14.8954 56 16V26C56 26 56 50 32 58C8 50 8 26 8 26V16Z" stroke="#07B0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Box_2" fill-rule="evenodd" clip-rule="evenodd" d="M14.4615 20.8462C14.4615 19.7416 15.3591 18.8535 16.4588 18.7498C22.6354 18.1677 28.4773 15.0977 30.8662 13.6974C31.5628 13.2891 32.4372 13.2891 33.1338 13.6974C35.5227 15.0977 41.3646 18.1677 47.5412 18.7498C48.6409 18.8535 49.5385 19.7416 49.5385 20.8462V27.6154C49.5385 27.6154 49.5385 45.1538 32 51C14.4615 45.1538 14.4615 27.6154 14.4615 27.6154V20.8462Z" fill="#34C67E"/>
+<g id="Check">
+<path id="Line" d="M24 30L30 36L40 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
