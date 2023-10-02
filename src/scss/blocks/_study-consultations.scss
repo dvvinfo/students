@@ -89,9 +89,12 @@
     font-weight: 600;
     line-height: 20px;
     color: var(--text-white);
-    transition: opacity 0.3s;
+    transition: background-color 0.3s;
     &:hover {
-      opacity: 0.8;
+      background-color: #0696e8;
+    }
+    &:disabled {
+      opacity: 0.5;
     }
   }
   &__text {
@@ -135,6 +138,6 @@
 .img-bg {
   background: url(../img/IMG.png) no-repeat;
 }
-.error-input {
-  border: 2px solid red;
+.error {
+  outline: 1px solid red;
 }
