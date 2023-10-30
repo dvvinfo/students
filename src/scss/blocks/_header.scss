@@ -1,6 +1,12 @@
 .header {
   padding: 24px 0;
   background-color: var(--page-bg);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 .logo {
   display: flex;
@@ -24,5 +30,52 @@
     font-size: 24px;
     line-height: 28px;
     color: var(--text-color);
+  }
+}
+.login{
+    &__btn {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 4px;
+      background-color: var(--block-bg-green);
+      color: var(--text-white);
+      transition: opacity 0.3s;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+    &__content {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      z-index: 1010;
+      padding: 20px;
+      background-color: var(--text-white);
+      box-shadow: 0 1px 20px rgba(0,0,0,.2);
+    border-radius: 4px;
+    }
+    &__link {
+      font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--text-color);
+    &:hover{
+      opacity: 0.7;
+    }
+    }
+    .show{
+      display: flex;
+    }
+    
+}
+@media (max-width: 1200px) {
+  .login{
+    &__content {
+      right: 20px;
+    }
   }
 }
